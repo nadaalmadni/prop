@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import Profile from "./profile/profile";
+import photo from './profile/san.jpeg';
+import "./App.css";
+export default function App() {
+var x = "nada";
+const funprop = () => {
+  return alert ("Be careful");
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+};
+return (
+  <div className="App">
+    <Profile OLI="MY NADAY" photo={photo} alert={funprop}/>
+  </div>
+);
 }
-
-export default App;
