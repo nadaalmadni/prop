@@ -1,5 +1,5 @@
 import Profile from "./profile/profile";
-import photo from './profile/san.jpeg';
+import photo from './profile/download.jpg';
 import "./App.css";
 export default function App() {
 var x = "nada";
