@@ -1,34 +1,87 @@
-.App {
+.bo {
   text-align: center;
-  background-color: bisque;
-  padding-bottom: 5%;
-  padding-top: 5%;
-
-  
  
 }
-
-.nn {
-  border: #7fffd4;
-width: 80px;
-height: 35px;
-border:coral;
-border-radius: 50px;
-font-family: 'Courier New', Courier, monospace;
-color: rgb(28, 105, 79) ;
-
-}
-.rr {
-  font-family: 'Courier New', Courier, monospace;
-  color:rgb(28, 105, 79);
+.counter{
+  text-align: center;
 }
 
-.dd{
-  font-family: 'Courier New', Courier, monospace;
-  color:rgb(28, 105, 79);
-}
-.sora{
+ .cc {
+   margin-right: 100px;
+ }
+ .re-btn{
+   margin-right: 150px;
+ }
+ .sora {
+   width: 1500px;
+   height: 300px;
+ }
+ .tex {
+   font-style:unset;
+   font-size: 15pt;
+   font-weight: bold;
+   color: red;
+ }
+ .pro{
+   display:flex;
+   justify-content: space-around;
+ }
+ .fr {
+   width: 200px;
+   height: 200px;
+ }
+ .sec{
+  width: 200px;
+  height: 200px; 
+ }
+ .thr {
+  width: 200px;
+  height: 200px;
+ }
+ .aa{
+   margin-left: 15%;
+   padding-bottom: 20%;
+ }
+ .cho {
+   margin-right: 15%;
+ }
+ .rr{
+   border-radius: 50px;
+   height: 30px;
+   width: 200px;
+   
+ }
+ .dd{
   border-radius: 50px;
+  height: 23px;
+  width: 200px;
+ 
+ }
+.dec-btn
+{
+  border-radius: 50px;
+  height: 20px;
+  width: 40px;
 }
- 
- 
+.incr-btn{
+  border-radius: 50px;
+  height: 20px;
+  width: 40px;
+}
+.re-btn{
+  border-radius: 50px;
+  height: 23px;
+  width: 100px;
+}
+
+.se{
+  border-radius: 50px;
+  height: 26px;
+  width: 150px;
+ margin-right: 12%;
+ background-color: red;
+}
+.pro-num{
+  display:flex;
+   justify-content: space-around;
+}
